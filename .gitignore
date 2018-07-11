@@ -1,0 +1,21 @@
+### Gradle template
+.gradle/
+build/
+
+# Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)
+!gradle-wrapper.jar
+
+/.idea/
+*.iml
+*.ipr
+*.iws
+
+# xnat-web exploded war
+/out/
+
+# Intellij wants to see this file to configure hibernate, but we don't really need it
+hibernate.cfg.xml
+
+# Ignore script-generated .html and .html.confluence documentation
+*.html
+*.html.confluence
